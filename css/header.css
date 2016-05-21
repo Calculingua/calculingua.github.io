@@ -1,0 +1,292 @@
+.header {
+    width : 100%;
+    /* for firefox 3.6+ */
+    box-shadow: 0px 2px 2px #666;
+    /*height: 50px;*/
+    z-index: 1000;
+    background: #bbbbbb !important;
+}
+
+.header .logo {
+    padding-left: 20px;
+    float: left;
+    width: 200px;
+    height: 50px;
+    float: left;
+}
+
+.header .logo img{
+    height : 50px;
+    position: relative;
+    bottom: 2px;
+}
+
+.header .links {
+    float: left;
+    margin: 0;
+}
+
+.header .links li {
+    display: inline;
+    list-style-type: none;
+    line-height: 50px;
+    /*padding-right: 30px;*/
+}
+
+.header li a {
+    text-decoration: none;
+    color: #686868;
+    text-shadow: 1px 1px #DDD;
+    /*font-size: 1.1em;*/
+}
+
+.header .sign-in {
+    /*float: right;*/
+    margin: 3px 5px 3px 5px;
+/*    line-height: 50px;*/
+}
+
+.header .sign-in img {
+    /*position: relative;*/
+    padding-top: 0;
+    padding-right: 15px;
+    height: 25px;
+}
+
+.header .user img{
+    max-width: 30px;
+}
+
+.header .right .show-for-medium-up a{
+    padding-right: 7px !important;
+    padding-left: 7px !important;
+}
+
+.header .right li a span{
+    /*display: inline !important;*/
+    /*margin-bottom: 1em;*/
+}
+
+/************* Login Dropdown *************/
+.login-dialog {
+    position: absolute;
+    top: 55px;
+    right: 20px;
+    width: 350px;
+    height: 250px;
+    z-index: 2000;
+}
+
+.login-iframe {
+    width: 350px;
+    height: 230px;
+    border: none;
+    box-shadow: 4px 4px 3px #666;
+    border-radius: 3px 3px 3px 3px;
+    background: #f9f9f9;
+    padding: 10px;
+/*    text-align: center;*/
+}
+
+.login-point div{
+    position: absolute;
+    left: 264px;
+    top: -12px;
+}
+
+.point-body {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid black;
+    z-index: 2000;
+}
+
+.point-space {
+    width: 0;
+    height: 0;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+    border-bottom: 15px solid #f9f9f9;
+    z-index: 2000;
+}
+
+/*#login_button {
+    float: right;
+    margin: 2% 11% 2% 5%;
+}*/
+
+.not-a-member {
+    margin: 5% 5% 5px 0;
+}
+
+/**************** Forms *******************/
+.form-window {
+    position: relative;
+    top: 0;
+    width: 340px;
+    height: 190px;
+    margin-top: 15px;
+
+}
+
+.form-window input {
+    border: 5px solid #CCC;
+/*    height: 35px;*/
+}
+
+.form-window .form-input-text {
+    float: left;
+    min-width: 150px;
+    width: 40%;
+    margin: 2% 5% 2% 5%;
+}
+
+.form-window .form-label {
+    float: left;
+    line-height: 32px;
+    width: 30%;
+    margin: 2% 5% 2% 5%;
+    text-align: right;
+}
+
+.form-window .form_input_bad {
+    float: left;
+    line-height: 32px;
+    margin: 2% -5% 2% -4%;
+    text-align: right;
+    margin: 2% -5% 2% -4%;
+}
+
+.input-button {
+    -moz-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+    -webkit-box-shadow: inset 0px 1px 0px 0px #fce2c1;
+    box-shadow: inset 0px 1px 0px 0px #fce2c1;
+/*    background: -ms-linear-gradient(top, #FFB600 0%, #E88D00 100%);
+    background: -moz-linear-gradient(top, #FFB600 0%, #E88D00 100%);
+    background: -o-linear-gradient(top, #FFB600 0%, #E88D00 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0, #FFB600),
+        color-stop(1, #E88D00) );
+    background: -webkit-linear-gradient(top, #FFB600 0%, #E88D00 100%);*/
+    background: linear-gradient(to bottom, #FFB600 0%, #E88D00 100%);
+    /* background-color: #ffc477; */
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: 1px solid #eeb44f;
+    display: inline-block;
+    color: #ffffff;
+    font-family: arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 1px 1px 1px #cc9f52;
+    /*margin-bottom: px;*/
+}
+
+.input-button:hover {
+    background: rgba(255, 192, 1, 1);
+    background-color: rgba(255, 192, 1, 1);
+}
+
+.input-button:active {
+    position: relative;
+    top: 1px;
+}
+
+.dropdown-message {
+    position: absolute;
+    margin: 5% 5% 5% 10%;
+    font-size: 1em;
+    top: 80px;
+    width: 165px;
+}
+
+.input-good {
+    color: green;
+}
+
+.input-bad {
+    color: red;
+}
+
+.input-bad a {
+    color: red;
+    text-decoration: underline !important;
+}
+
+.not_a_member a {
+    text-decoration: none;
+}
+
+.text-error{
+    border-color : red !important;
+}
+
+.reg-overlay {
+    top: 0px;
+    bottom: 0px;
+    right: 0px;
+    left: 0px;
+    background: white;
+    position: absolute;
+    border-radius: 3px 3px 3px 3px;
+    opacity: 0.6;
+    z-index: 1000;
+}
+
+.reg-overlay .icon{
+    position: absolute;
+    top: calc(50% - 28px);
+    left: calc(50% - 28px);
+}
+
+
+.paginate {
+    width: 100%;
+    height: 30px;
+/*	background-image: url(../img/combo-box.jpg);
+    background-repeat: repeat;
+*/	margin: 1em 0 0 0;
+    z-index : 1000;
+}
+
+.paginate ul, .paginate li {
+    list-style: none;
+    line-height: 0;
+    margin: 0;
+    padding: 0;
+    cursor: pointer;
+    float: right;
+}
+
+.paginate li {
+    height: 30px;
+    border-radius: 0;
+    margin: 0;
+    width: 60px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.paginate li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    /*color: #F0F0F0;*/
+    color: #0a0a0a;
+    text-shadow: 1px 1px 0 #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.paginate li:hover {
+/*	background-color: rgba(255, 192, 1, 1);*/
+}
+
+.paginate li:active {
+    position: relative;
+    top: 1px;
+}

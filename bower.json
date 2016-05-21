@@ -1,0 +1,24 @@
+{
+  "name": "calculingua.github.io",
+  "homepage": "https://github.com/Calculingua/calculingua.github.io",
+  "authors": [
+    "Bill Burke <billstron@gmail.com>"
+  ],
+  "description": "website for the calculingua project",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "BSD",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "font-awesome": "~4.6.3",
+    "foundation": "~5.2.3",
+    "normalize-css": "normalize.css#~4.1.1"
+  }
+}
