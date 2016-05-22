@@ -19,14 +19,11 @@
         <li><a href="/#features">Features</a></li>
       </ul>
 
-      <ul class="right" ng-if="!loggedIn" ng-cloak>
-        <li class="sign-in" ng-hide="loggedIn || disableDropdown()">
-          <a href="/login.html" title="Sign In" class="show-for-small-only button radius large cali-info">
+      <ul class="right">
+        <li class="sign-in">
+          <a href="/cali-app" title="Sign In" class="button radius large cali-info">
             <i class="icon icon-user"></i> Login
           </a>
-          <button class="show-for-medium-up button radius large cali-info" ng-click="onLoginClick()">
-            <i class="icon icon-user"></i> Login
-          </button>
         </li>
       </ul>
     </section>
